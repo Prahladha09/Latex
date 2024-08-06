@@ -1,0 +1,123 @@
+%\iffalse
+\let\negmedspace\undefined
+\let\negthickspace\undefined
+\documentclass[journal,12pt,twocolumn]{IEEEtran}
+\usepackage{cite}
+\usepackage{circuitikz}
+\usepackage{amsmath,amssymb,amsfonts,amsthm}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{txfonts}
+\usepackage{listings}
+\usepackage{enumitem}
+\usepackage{mathtools}
+\usepackage{gensymb}
+\usepackage{comment}
+\usepackage[breaklinks=true]{hyperref}
+\usepackage{tkz-euclide} 
+\usepackage{listings}
+\usepackage{gvv}                                        
+\def\inputGnumericTable{}                                 
+\usepackage[latin1]{inputenc}                                
+\usepackage{color}                                            
+\newtheorem{theorem}{Theorem}[section]
+\usepackage{array}                                            
+\usepackage{longtable}                                       
+\usepackage{calc}                                             
+\usepackage{multirow}                                         
+\usepackage{hhline}                                           
+\usepackage{ifthen}                                           
+\usepackage{lscape}
+\newtheorem{problem}{Problem}
+\newtheorem{proposition}{Proposition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{example}{Example}[section]
+\newtheorem{definition}[problem]{Definition}
+\newcommand{\BEQA}{\begin{eqnarray}}
+\newcommand{\EEQA}{\end{eqnarray}}
+\newcommand{\define}{\stackrel{\triangle}{=}}
+\theoremstyle{remark}
+\newtheorem{rem}{Remark}
+\begin{document}
+\bibliographystyle{IEEEtran}
+\vspace{3cm}
+\title{Quadratic Equations and Inequations(Inequalities)}
+\author{ai24btech11024 PRAHLADHA% <-this % stops a space
+}
+\maketitle
+\newpage
+\bigskip
+\renewcommand{\thefigure}{\theenumi}
+\renewcommand{\thetable}{\theenumi}
+\section{D.MCQs with One or More than One Correct}
+\begin{enumerate}
+ \item Number of integral divisors of the form $4n+2$($n\geq 0$) of the integer 240 is        \hfill (1984-2 Marks)
+ \begin{enumerate}
+     \item a positive integer
+     \item divisible by n
+     \item equal to n+$\frac{1}{n}$
+     \item never equal to n
+ \end{enumerate}
+ \item If $3^X=4^x-1$,then $x=$ \hfill (JEE Adv. 2013)
+ \begin{enumerate}
+     \item $\frac{2\log_3 2}{2\log_3 2-1}$
+     \item $\frac{2}{2-\log_2 3}$
+     \item $\frac{1}{1-\log_4 3}$
+     \item $\frac{2\log_2 3}{2\log_2 3-1}$
+ \end{enumerate}
+ \item Let S be the set of all non-zero real numbers \(\alpha\) such that quadratic equation $\alpha x^2-x+\alpha=0$ has two distinct real roots $x_1$ and $x_2$ satisfying the inequality$|x_1-x_2|<1$. Which of the following intervals is(are) $\alpha$ subset of S? \hfill (JEE Adv. 2015)
+ \begin{enumerate}
+     \item $(-\frac{1}{2},-\frac{1}{\sqrt{5}})$
+     \item $(-\frac{1}{\sqrt{5}},0)$
+     \item $(0,\frac{1}{\sqrt{5}})$
+    \item $(\frac{1}{\sqrt{5}},\frac{1}{2})$
+ \end{enumerate}
+
+\section{E.Subjective Problems}
+ 
+ \item solve for $x$ : $4^x-3^{x-\frac{1}{2}}=3^{x+\frac{1}{2}}-2^{2x-1}$                       \hfill  (1978)
+
+ 
+ \item If $(m,n)=\frac{(1-x^m)(1-x^{m-1}).........(1-x^{m-n+1})}{(1-x)(1-x^2)...........(1-x^n)}$ Where m and n are positive integers $(n\leq m)$,Show that $(m,n+1)=(m-1,n+1)+x^{m-n-1}(m-1,n)$.(1978)
+ \item Solve for x:$\sqrt{x+1}-\sqrt{x-1}=1$.   \hfill (1978)
+ \item Solve the following equation for x:
+ 
+$2\log_x a+\log_{ax} a+3\log_{a^2x} a=0$,$a>0$ \hfill (1978)
+\item Show that the square of $\frac{\sqrt{26-15\sqrt{3}}}{5\sqrt{2}-\sqrt{38+5\sqrt{3}}}$ is a rational number.\hfill (1978) 
+\item Sketch the solution set of the following system of inequalities:
+
+$x^2+y^2-2x\geq 0;3x-y-12\leq 0;y-x\leq 0;y\geq 0$. \hfill (1978)
+\item Find all integers x for which
+
+$(5x-1)<(x+1)^2<(7x-3)$. \hfill (1978)
+\item If $\alpha,\beta$ are the roots of $x^2+px+q=0$ and $\gamma,\delta$ are the roots of $x^2+rx+s=0$,evaluate $(\alpha-\gamma)(\alpha-\delta)(\beta-\gamma)(\beta-\delta)$ in terms of p,q,r,and 
+
+s. Deduce the condition that the equations have a common root. \hfill (1979)
+\item Given $n^4<10^n$ for a fixed positive integer $n\geq 2$,
+
+prove that $(n+1)^4<10^{n+1}$. \hfill (1980)
+\item Let $y=\sqrt{\frac{(x+1)(x-3)}{(x-2)}}$
+
+Find all the real values of x for which y takes real values. \hfill (1980)
+\item For what values of m,does the system of equations \hfill (1980)
+
+$3x+my=m$
+
+$2x-5y=20$
+
+has solution satisfying the condition x>0,y>0. \hfill (1980)
+\item find the solution set of the system
+
+$x+2y+z=1$;
+
+$2x-3y-w=2$;
+
+$x\geq 0;y\geq 0;z\geq 0;w\geq 0$.  \hfill (1980)
+ \end{enumerate}
+
+ 
+
+\end{document}
